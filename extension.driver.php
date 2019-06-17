@@ -29,7 +29,7 @@
         $current_path = substr(strrev(strstr(strrev($current_path), strrev($needle))), 0, -strlen($needle));
       }
       $current_path = ltrim( $current_path, "/");
-      $segments = split("/",  $current_path);
+      $segments = explode("/",  $current_path);
       
       # Add to context['params'] array
       foreach ($segments as $key => $segment)

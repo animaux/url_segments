@@ -13,6 +13,9 @@
 		</author>
 	</authors>
 	<releases>
+		<release version="1.2" date="2019-06-17" min="2.7">
+			- Updated for PHP 7 (`split()` —> `explode()`)
+		</release>
 		<release version="1.1" date="2012-10-05" min="2.3">
 			- Updated for Symphony 2.3; now requires Symphony 2.3.
 		</release>
